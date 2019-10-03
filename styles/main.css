@@ -1,0 +1,45 @@
+body {
+    background-color: #C3986B;
+}
+
+.pageHeader {
+    background-color: white;
+    text-align: center;
+    font-family: 'Chango'; font-size: 24px;
+    color:  rgba(195, 152, 107);
+}
+
+.list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: space-between;
+    color: white;
+    font-family: 'Chango'; font-size: 16px;
+    background: rgba(76, 175, 80, 0.9);
+}
+
+.shop {
+    flex-basis: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(57, 131, 60, 0.6);
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 3px 3px;
+
+}
+
+.shop h3 {
+    text-align: center;
+}
+
+.info {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+}
